@@ -14,10 +14,9 @@
 	<packaging>war</packaging>
 	<name>app</name>
 	<description>ISA/MRS project</description>
-  	<properties>
-        <java.version>11</java.version>
-        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-    </properties>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
