@@ -11,11 +11,13 @@
 	<groupId>team10</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>app</name>
 	<description>ISA/MRS project</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+  	<properties>
+        <java.version>1.8</java.version>
+        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+    </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -106,14 +108,6 @@
 	</dependencies>
 	<build>
 		<plugins>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.8.0</version>
-			<configuration>
-				<release>11</release>
-			</configuration>
-		</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
