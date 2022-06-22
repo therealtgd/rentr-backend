@@ -11,11 +11,10 @@
 	<groupId>team10</groupId>
 	<artifactId>app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>app</name>
 	<description>ISA/MRS project</description>
 	<properties>
-		<java.version>11.0.15</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
